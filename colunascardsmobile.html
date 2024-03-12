@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Três Cards de Informações - Responsivo</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 300px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .card-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .card-content h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .card-content p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/d6/c5/c1/d6c5c17ae032f7f76b43e887686e52cd.jpg" alt="Imagem 1">
+        <div class="card-content">
+            <h2>Título do Card 1</h2>
+            <h3>Subtítulo 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula arcu sed justo vestibulum fermentum.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/d6/c5/c1/d6c5c17ae032f7f76b43e887686e52cd.jpg" alt="Imagem 2">
+        <div class="card-content">
+            <h2>Título do Card 2</h2>
+            <h3>Subtítulo 2</h3>
+            <p>Integer sed lectus quis nisi facilisis vulputate. Fusce bibendum tortor quis libero aliquet, et volutpat velit varius.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/564x/d6/c5/c1/d6c5c17ae032f7f76b43e887686e52cd.jpg" alt="Imagem 3">
+        <div class="card-content">
+            <h2>Título do Card 3</h2>
+            <h3>Subtítulo 3</h3>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean consectetur nisi eu elit tempus, sed pulvinar justo dignissim.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
